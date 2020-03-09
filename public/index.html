@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/> -->
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/assets/img/appicon2.png" />
+  <title>KAIM</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+          name="description"
+          content="Web site created using create-react-app"
+  />
+  <!--
+    manifest.json provides metadata used when your web app is installed on a
+    user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+  -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <link href="%PUBLIC_URL%/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css"> -->
+  <link href="%PUBLIC_URL%/assets/css/icons.css" rel="stylesheet" type="text/css" />
+  <!-- <link href="assets/css/app.css" rel="stylesheet" type="text/css" /> -->
+  <!-- Font -->
+  <link href="%PUBLIC_URL%/assets/fonts/fontawesome-5.4.2/css/all.min.css" rel="stylesheet" type="text/css">
+  <!-- CSS -->
+  <link href="%PUBLIC_URL%/assets/css/default.css" rel="stylesheet" type="text/css" />
+
+
+  <script src="%PUBLIC_URL%/assets/js/bluebird.core.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/object-assign.min.js"></script>
+  <script>
+    window.ObjectAssign.polyfill();
+  </script>
+  <link href="%PUBLIC_URL%/assets/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="%PUBLIC_URL%/assets/css/modal.css" rel="stylesheet" type="text/css" />
+  <link href="%PUBLIC_URL%/assets/css/chart.css" rel="stylesheet" type="text/css" />
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+<input type="text" style="display:none" id="dummy_text"/>
+<input type="password" style="display:none" id="dummy_pwd"/>
+<div id="root" class="main-container"></div>
+<div id="errorResult"></div>
+<!--
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
+
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
+
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+-->
+<!-- jQuery  -->
+<script type="text/javascript" src="%PUBLIC_URL%/assets/js/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="./js/jquery.mobile.touch.min.js"></script> -->
+<!-- <script type="text/javascript" src="../assets/js/jquery-ui.selectmenu.min.js"></script> -->
+<!-- <link href="./css/mobile.css?v1.0.36" rel="stylesheet" type="text/css" /> -->
+<script src="%PUBLIC_URL%/assets/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script> -->
+<!--    <script type="text/javascript">-->
+<!--      let IS_ADMIN = '<sec:authorize access="hasRole('ROLE_ADMIN')">admin</sec:authorize>';-->
+<!--    </script>-->
+<script type="text/javascript">
+  let IS_ADMIN = 'admin';
+</script>
+<script src="%PUBLIC_URL%/js/bundle.js"></script>
+</body>
+</html>
